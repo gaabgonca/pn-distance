@@ -9,6 +9,7 @@ export const durations ={
 export const rythms = {
     lentico: 30,
     segunda: 45,
+    tercera: 60,
     cuarta: 70,
     sexta: 100,
     coser: 130,

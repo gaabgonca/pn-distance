@@ -129,6 +129,12 @@
 				bind:group={averageRythm}
 				value={rythms.segunda}>En segunda (45 ↑ por minuto)</RadioItem
 			>
+            <RadioItem
+				class="flex w-full"
+				name="averageRythm"
+				bind:group={averageRythm}
+				value={rythms.tercera}>En tercera (60 ↑ por minuto)</RadioItem
+			>
 			<RadioItem
 				class="flex w-full"
 				name="averageRythm"
@@ -165,7 +171,7 @@
         <p class="text-2xl font-bold text-center my-4 ">{totalDistanceInMeters} metros </p> 
         {:else}
         <span>Según mis cuentas, tu pn ha recorrido</span>
-        <p class="text-2xl font-bold">{totalDistanceInKilometers} kilómetros</p>
+        <p class="text-2xl font-bold text-center my-4">{totalDistanceInKilometers} kilómetros</p>
         {/if}
         
 	</div>
