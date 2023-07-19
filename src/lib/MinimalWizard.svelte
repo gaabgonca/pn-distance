@@ -74,7 +74,7 @@
 		<label for="size" class="label w-full">
 			<span class="question">Tamaño del equipo en cm</span>
 			<span class="flex flex-row w-full items-center justify-between px-0">
-				<input type="range" class="flex w-72" bind:value={size} min="8" max="25" />
+				<input type="range" class="flex w-72" bind:value={size} min="3" max="25" />
 				<span class="w-max flex line-clamp-1">{size} cm</span>
 			</span>
 			<p class="w-full mx-auto text-center comment">{sizeText}</p>
