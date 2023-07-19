@@ -4,7 +4,7 @@ import { RadioGroup, RadioItem } from '@skeletonlabs/skeleton';
 	let hasStarted = true;
 	let mode = 0
 </script>
-<div class="h-full md:w-2/5 flex justify-center items-center w-full px-4">
+<div class="h-full flex justify-center items-center w-full px-4 md:w-2/5 md:mx-auto">
 	{#if !hasStarted}
 	<div class="space-y-4 text-center flex flex-col items-center">
 		<h1 class="text-4xl">¿Cuánto ha recorrido mi pn?</h1>

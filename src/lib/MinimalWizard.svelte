@@ -66,7 +66,7 @@
     })
 </script>
 
-<section bind:this={body} class="w-screen h-screen flex flex-col grow items-start overflow-auto justify-start px-4 py-20">
+<section bind:this={body} class="w-screen md:w-full h-screen flex flex-col grow items-start overflow-auto justify-start px-4 py-20">
 	<div class="w-full h-fit p-4 surface-700 mb-80">
         <h1 class="text-4xl">¿Cuánto ha recorrido mi pn?</h1>
 		<h2 class="text-base">Cálculalo aquí y ahora, de gratis (no guardamos información, esto es pura recocha)</h2>
